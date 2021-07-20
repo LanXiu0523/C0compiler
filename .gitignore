@@ -1,2 +1,6 @@
 # Temporary Files
 *.tmp
+
+# Compiled Object files
+*.o
+*.obj
