@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="C0compiler" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/C0compiler" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/C0compiler" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="ToMIPS.cpp" />
+		<Unit filename="ToMIPS.h" />
+		<Unit filename="ToMIPS_Better.cpp" />
+		<Unit filename="ToMIPS_Better.h" />
+		<Unit filename="error.cpp" />
+		<Unit filename="error.h" />
+		<Unit filename="f_objectCode.tmp" />
+		<Unit filename="f_objectCodeBetter.tmp" />
+		<Unit filename="f_objectCodeToMIPS.asm.tmp" />
+		<Unit filename="f_objectCodeToMIPS_Better.asm.tmp" />
+		<Unit filename="global.cpp" />
+		<Unit filename="global.h" />
+		<Unit filename="grammaticalAnalysis.cpp" />
+		<Unit filename="grammaticalAnalysis.h" />
+		<Unit filename="init.cpp" />
+		<Unit filename="init.h" />
+		<Unit filename="lexicalAnalysis.cpp" />
+		<Unit filename="lexicalAnalysis.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="objectCodeBetter.cpp" />
+		<Unit filename="objectCodeBetter.h" />
+		<Unit filename="objectCodeProcessing.cpp" />
+		<Unit filename="objectCodeProcessing.h" />
+		<Unit filename="virtualMachineOfStackStructure.cpp" />
+		<Unit filename="virtualMachineOfStackStructure.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

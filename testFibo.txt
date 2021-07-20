@@ -1,0 +1,31 @@
+void main ()
+{
+    int i,a,b,tmp,N,PL;
+	i = 0;
+	a = 0;
+	b = 1;
+	PL = 1111111111;
+    	scanf(N);
+	printf(PL);
+	printf(i);
+	printf(a);
+	i = i+1;	
+	printf(PL);
+	printf(i);
+	printf(b);
+	i = i+1;
+	N = N-1;
+	while(N)
+    	{
+		tmp = a+b;
+		a = b;
+		b = tmp;
+		printf(PL);
+		printf(i);
+		printf(b);
+		i = i+1;
+		N = N-1;
+	}
+}
+
+

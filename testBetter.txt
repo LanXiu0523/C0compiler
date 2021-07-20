@@ -1,0 +1,42 @@
+void main ()
+{
+    int a,b,c;
+    c=0+0;
+    c=c+0;
+    c=c-0;
+    c=0+c;
+    c=c*1;
+    c=c/1;
+    c=1*c;
+
+    scanf (a);
+    c=a;
+    a=c;
+    scanf (b);
+    c=b;
+    b=c;
+
+    while(0)
+    {
+	printf(0);
+        printf(9);
+    }
+
+    if(0)
+    {
+	printf(0);
+        printf(9);
+    }
+
+    c=a+b;
+    a=c;
+    c=a;
+    b=c;
+    c=b;
+	
+    printf (a);
+    printf (b);
+    printf (c);
+}
+
+

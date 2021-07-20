@@ -1,0 +1,183 @@
+# depslib dependency file v1.0
+1624554815 source:c:\users\lenono\desktop\atest临时\c0compiler\global.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	"global.h"
+
+1624554815 c:\users\lenono\desktop\atest临时\c0compiler\global.h
+
+1624525888 source:c:\users\lenono\desktop\atest临时\c0compiler\main.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"init.h"
+	"error.h"
+	"lexicalAnalysis.h"
+	"grammaticalAnalysis.h"
+	"global.h"
+
+1621536385 c:\users\lenono\desktop\atest临时\c0compiler\init.h
+
+1624554374 source:c:\users\lenono\desktop\atest临时\c0compiler\init.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+	"init.h"
+
+1624044485 c:\users\lenono\desktop\atest临时\c0compiler\error.h
+
+1624292534 source:c:\users\lenono\desktop\atest临时\c0compiler\error.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+	"error.h"
+
+1624046006 c:\users\lenono\desktop\atest临时\c0compiler\lexicalanalysis.h
+
+1624440891 source:c:\users\lenono\desktop\atest临时\c0compiler\lexicalanalysis.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+	"error.h"
+	"lexicalAnalysis.h"
+
+1624247690 c:\users\lenono\desktop\atest临时\c0compiler\grammaticalanalysis.h
+	"global.h"
+
+1624554831 source:c:\users\lenono\desktop\atest临时\c0compiler\grammaticalanalysis.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	"grammaticalAnalysis.h"
+	"lexicalAnalysis.h"
+	"error.h"
+	"global.h"
+
+1625308538 source:c:\users\lenono\desktop\test_lpq\c0compiler\init.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+	"init.h"
+
+1625299520 c:\users\lenono\desktop\test_lpq\c0compiler\global.h
+
+1625297773 c:\users\lenono\desktop\test_lpq\c0compiler\init.h
+
+1625381253 source:c:\users\lenono\desktop\test_lpq\c0compiler\lexicalanalysis.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+	"error.h"
+	"lexicalAnalysis.h"
+
+1625297764 c:\users\lenono\desktop\test_lpq\c0compiler\error.h
+
+1625297775 c:\users\lenono\desktop\test_lpq\c0compiler\lexicalanalysis.h
+
+1625297733 source:c:\users\lenono\desktop\test_lpq\c0compiler\error.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+	"error.h"
+
+1625380683 source:c:\users\lenono\desktop\test_lpq\c0compiler\grammaticalanalysis.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	"grammaticalAnalysis.h"
+	"lexicalAnalysis.h"
+	"error.h"
+	"objectCodeProcessing.h"
+	"global.h"
+
+1625297770 c:\users\lenono\desktop\test_lpq\c0compiler\grammaticalanalysis.h
+	"global.h"
+
+1625725139 source:c:\users\lenono\desktop\test_lpq\c0compiler\main.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"init.h"
+	"error.h"
+	"lexicalAnalysis.h"
+	"grammaticalAnalysis.h"
+	"virtualMachineOfStackStructure.h"
+	"ToMIPS.h"
+	"ToMIPS_Better.h"
+	"global.h"
+
+1625297738 source:c:\users\lenono\desktop\test_lpq\c0compiler\global.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	"global.h"
+
+1625313127 source:c:\users\lenono\desktop\test_lpq\c0compiler\virtualmachineofstackstructure.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+	"virtualMachineOfStackStructure.h"
+
+1625309203 c:\users\lenono\desktop\test_lpq\c0compiler\virtualmachineofstackstructure.h
+
+1625309517 c:\users\lenono\desktop\test_lpq\c0compiler\objectcodeprocessing.h
+
+1625726107 source:c:\users\lenono\desktop\test_lpq\c0compiler\objectcodeprocessing.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	"global.h"
+	"objectCodeProcessing.h"
+	"objectCodeBetter.h"
+
+1625726597 source:c:\users\lenono\desktop\test_lpq\c0compiler\objectcodebetter.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+	"objectCodeBetter.h"
+
+1625713493 c:\users\lenono\desktop\test_lpq\c0compiler\objectcodebetter.h
+
+1625714420 c:\users\lenono\desktop\test_lpq\c0compiler\tomips.h
+
+1625734197 source:c:\users\lenono\desktop\test_lpq\c0compiler\tomips.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+	"ToMIPS.h"
+
+1625723476 c:\users\lenono\desktop\test_lpq\c0compiler\tomips_better.h
+
+1625734182 source:c:\users\lenono\desktop\test_lpq\c0compiler\tomips_better.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<string.h>
+	"global.h"
+	"ToMIPS.h"
+
