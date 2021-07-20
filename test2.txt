@@ -1,0 +1,19 @@
+
+void fun(){
+	int a;
+	a=44;
+	printf(a);
+}
+
+void main(){
+	int a,b,c;
+	a=11;
+	printf(a);
+	b=22;
+   	printf(b);
+	c=a+b;
+	printf(c);
+	fun();
+}
+
+

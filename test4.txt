@@ -1,0 +1,25 @@
+void f1(){
+int a;
+a=1;
+printf(a);
+}
+void f2(){
+int a;
+a=2;
+printf(a);
+}
+void f3(){
+int a;
+a=3;
+printf(a);
+}
+void main(){
+int a;
+a=4;
+f1();
+f2();
+f3();
+printf(a);
+}
+
+

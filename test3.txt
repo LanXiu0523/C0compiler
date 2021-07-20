@@ -1,0 +1,26 @@
+void main(){
+int a,b,c,d,e,aa;
+scanf(a);
+b=1;
+c=2;
+d=3;
+e=4;
+aa=a+1;
+printf(aa);
+aa=a-1;
+printf(aa);
+aa=a*2;
+printf(aa);
+aa=a/2;
+printf(aa);
+aa=a+b;
+printf(aa);
+aa=a-c;
+printf(aa);
+aa=a*d;
+printf(aa);
+aa=a/e;
+printf(aa);
+}
+
+

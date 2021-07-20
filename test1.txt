@@ -1,0 +1,13 @@
+void main ()
+{
+   int a,b,c;
+   scanf(a);
+   scanf(b);
+   scanf(c);
+   c=b+c;
+   printf(c);
+   a=a*c;
+   printf(a);
+}
+
+
